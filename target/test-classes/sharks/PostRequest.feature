@@ -1,3 +1,4 @@
+@all
 Feature: Post Request Concepts
 
   Background: 
@@ -13,7 +14,7 @@ Feature: Post Request Concepts
       """
       {
       "primaryPerson": {
-      "email": "shaiq123@tekschool.us",
+      "email": "shamsuddin.malikzada@gmail.com",
       "title": "Mr.",
       "firstName": "shaiq",
       "lastName": "darwish",

@@ -3,7 +3,7 @@ import com.intuit.karate.junit5.Karate;
 public class TestRunner {
 	@Karate.Test
 	Karate testUsers() {
-		return Karate.run().tags("  @getAccount ").relativeTo(getClass());
+		return Karate.run().tags("@Test").relativeTo(getClass());
 	}
 
 	

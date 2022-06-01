@@ -5,7 +5,7 @@ Feature: Insurance API Automation
     * def result = callonce read('GenerateToken.feature')
     * def token = result.token
 
-  @getAccount #@GetFeature
+  @getAccount @GetFeature
   Scenario: GetAccount
     Given headers  {Authorization: '#("Bearer " + token)'}
     * path 'api/accounts/get-account'
@@ -22,7 +22,7 @@ Feature: Insurance API Automation
     Then status 200
     And print response
 
-  # get primary account API
+   # get primary account API
   @getPrimaryAccount @GetFeature
   Scenario Outline: Get Primary Account
     Given headers {Authorization: '#("Bearer " + token)'}

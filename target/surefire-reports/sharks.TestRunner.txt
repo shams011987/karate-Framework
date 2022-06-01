@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------------
+Test set: sharks.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 26.117 s <<< FAILURE! - in sharks.TestRunner
+testUsers[1][1]  Time elapsed: 3.685 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1227, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email shaiq123@tekschool.us is exist"}
+classpath:sharks/PostRequest.feature:43
+
+testUsers[1][2]  Time elapsed: 1.24 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1213, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][3]  Time elapsed: 0.916 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 883, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex1@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][4]  Time elapsed: 1.193 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1168, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex2@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][5]  Time elapsed: 1.214 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1197, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex3@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][6]  Time elapsed: 1.215 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1190, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex4@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][7]  Time elapsed: 1.178 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1159, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex5@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][8]  Time elapsed: 1.216 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1195, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex6@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][9]  Time elapsed: 0.932 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 913, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex7@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][10]  Time elapsed: 1.191 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1173, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex8@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][11]  Time elapsed: 1.195 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1176, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex9@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][12]  Time elapsed: 1.179 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1158, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex0@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][13]  Time elapsed: 1.209 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1191, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex11@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][14]  Time elapsed: 1.196 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1179, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex12@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][15]  Time elapsed: 0.92 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 909, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex13@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][16]  Time elapsed: 1.212 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1190, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex14@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
+testUsers[1][17]  Time elapsed: 2.564 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 500, expected: 201, response time in milliseconds: 1233, url: https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account, response: 
+{"errorCode":"ACCOUNT_EXIST","httpStatus":"INTERNAL_SERVER_ERROR","errorMessage":"Account with Email alex15@gmail.com is exist"}
+classpath:sharks/PostRequest.feature:67
+
